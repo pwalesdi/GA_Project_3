@@ -58,6 +58,13 @@ HEAD
 - [Looking At Misclassification in Depth](#Examine-the-posts-that-were-misclassified)
 
 ## Visuals
-### Beta Values for features that are predicting Texas Reddit
+### Beta Values for features that are predicting Texas Reddit : Logistic Regression
 ![alt text](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/download-8.png "Beta Values")
+
+### Beta Values for features that are predicting California Reddit : Logistic Regression
+![alt text](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/download-7.png "Beta Values")
+
+### Distribution of Predicted Probabilities : Classifying False Positives & False Negatives
+![alt text](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/prob_dist.png
+ "Probability Distribution")
 
