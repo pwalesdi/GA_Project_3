@@ -34,6 +34,8 @@ HEAD
 	
 
 [Data Gathering Notebook](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/NLP_Data_Gathering.ipynb)
+[Data Modeling & Visualization Notebook](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/NLP_Data_Modeling.ipynb)
+
 
 ## DATA GATHERING NOTEBOOK Contents:
 - [Import Libraries](#Import-our-Libraries)
@@ -42,8 +44,6 @@ HEAD
 - [Keep only uniqie Posts](#Check-to-be-Sure-Posts-are-Unique)
 - [Cleaning and Creating Master DataFrame](#Clean-up-the-DataFrame)
 - [Exporting our DataFrame for Modeling](#Export-as-CSV-File)
-
-[Data Modeling & Visualization Notebook](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/NLP_Data_Modeling.ipynb)
 
 ## DATA MODELING AND VISUALIZATION Contents:
 - [Data Import](#Data-Import)
