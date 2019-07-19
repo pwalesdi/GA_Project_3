@@ -14,7 +14,9 @@ I was able to conclude that the model ran very consistently and that the misclas
 Overall this was a fantastic learning experience and I thoroughly enjoyed the process.
 
 ## URLS
+
 Subreddit California Politics: https://www.reddit.com/r/California_Politics/
+
 Subreddit Texas Politics: https://www.reddit.com/r/TexasPolitics/
 
 
