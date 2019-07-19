@@ -57,4 +57,7 @@ HEAD
 - [Texas Wordcloud](#Analysis-of-Texas-subreddit-words-via-Wordcloud)
 - [Looking At Misclassification in Depth](#Examine-the-posts-that-were-misclassified)
 
+## Visuals
+### Beta Values for features that are predicting Texas Reddit
+![alt text](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/download-8.png "Beta Values")
 
