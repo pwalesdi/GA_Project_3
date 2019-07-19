@@ -34,6 +34,7 @@ HEAD
 	
 
 [Data Gathering Notebook](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/NLP_Data_Gathering.ipynb)
+
 [Data Modeling & Visualization Notebook](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/NLP_Data_Modeling.ipynb)
 
 
