@@ -33,7 +33,7 @@ HEAD
 	- Images used throughout the presentation file from the web
 	
 
-[Data Gathering Notebook](/Project_3_Data_Gathering.ipynb)
+[Data Gathering Notebook](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/NLP_Data_Gathering.ipynb)
 
 ## DATA GATHERING NOTEBOOK Contents:
 - [Import Libraries](#Import-our-Libraries)
@@ -43,7 +43,7 @@ HEAD
 - [Cleaning and Creating Master DataFrame](#Clean-up-the-DataFrame)
 - [Exporting our DataFrame for Modeling](#Export-as-CSV-File)
 
-[Data Gathering Notebook](/Project_3_Data_Modeling.ipynb)
+[Data Gathering Notebook](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/NLP_Data_Modeling.ipynb)
 
 ## DATA MODELING AND VISUALIZATION Contents:
 - [Data Import](#Data-Import)
