@@ -56,14 +56,15 @@ Subreddit Texas Politics: https://www.reddit.com/r/TexasPolitics/
 - [California Wordcloud](#Analysis-of-California-subreddit-words-via-Wordcloud)
 - [Texas Wordcloud](#Analysis-of-Texas-subreddit-words-via-Wordcloud)
 - [Looking At Misclassification in Depth](#Examine-the-posts-that-were-misclassified)
-
+<br/>
+<br/>
 ## Visuals
 ### Beta Values for features that are predicting Texas Reddit : Logistic Regression
 ![alt text](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/download-8.png "Beta Values")
-
+<br/>
 ### Beta Values for features that are predicting California Reddit : Logistic Regression
 ![alt text](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/download-7.png "Beta Values")
-
+<br/>
 ### Distribution of Predicted Probabilities : Classifying False Positives & False Negatives
 <p align="center">
   <img width="750" height="550" src="https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/prob_dist.png">
