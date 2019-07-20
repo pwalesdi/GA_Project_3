@@ -1,5 +1,6 @@
 
 # Webscraping Reddit API and Natural Language Processing
+## Classification of posts on r/California_Politics & r/TexasPolitics
 
 This experience started as a daunting project but quickly became fun and interesting experience. I webscraped the Reddit.com API to gather unique posts from two different subreddits. The first was the California Politics subreddit and the second was the Texas Politics subreddit. At first glance these seemed to provide a very nice contrast with each other as the topics discussed in each would have some overlap when the content centered around national politics and some divergence when the content centered around state and local politics. The hope was that they would provide enough features for the Natural Language Processor to correctly classify a posts origin. 
 
