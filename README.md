@@ -66,7 +66,7 @@ Subreddit Texas Politics: https://www.reddit.com/r/TexasPolitics/
 
 ### Distribution of Predicted Probabilities : Classifying False Positives & False Negatives
 <p align="center">
-  <img width="800" height="600" src="https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/prob_dist.png">
+  <img width="750" height="550" src="https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/prob_dist.png">
 </p>
 
 
