@@ -65,6 +65,11 @@ Subreddit Texas Politics: https://www.reddit.com/r/TexasPolitics/
 ![alt text](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/download-7.png "Beta Values")
 
 ### Distribution of Predicted Probabilities : Classifying False Positives & False Negatives
-![image alt](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/prob_dist.png "Probability Distribution")
+![image alt](https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/prob_dist.png)
+
+<p align="center">
+  <img width="400" height="400" src="https://github.com/pwalesdi/Webscraping-Reddit-API-and-Natural-Language-Processing/blob/master/images/prob_dist.png">
+</p>
+
 
 
