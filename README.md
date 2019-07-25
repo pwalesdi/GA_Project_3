@@ -57,44 +57,6 @@ Subreddit Texas Politics: https://www.reddit.com/r/TexasPolitics/
 - [Texas Wordcloud](#Analysis-of-Texas-subreddit-words-via-Wordcloud)
 - [Looking At Misclassification in Depth](#Examine-the-posts-that-were-misclassified)
 
-## Code Example
-
-```# Deciding which words to remove via stop words
-stop_words = ['to', 'the', 'in', 'of', 'for', 'and', 'on', 'is', 'it', 
-              'with', 'what', 'about', 'are', 'as', 'from', 'at', 'will', 
-              'that', 'says', 'by', 'be', 'this', 'can', 'has', 'how', 
-              'california', 'texas']
-# Setting up our hyperparameters to pass through our pipeline
-pipe_params = {
-    'vec' : [CountVectorizer(), TfidfVectorizer()],
-    'vec__max_features': [1700, 1900, 2500, 3000],
-    'vec__min_df': [2, 3],
-#     'vec__max_df': [0.4, 0.5],
-    'vec__ngram_range': [(1,2), (1,1), (1,3)],
-    'model' : [LogisticRegression(), 
-               LogisticRegression(penalty='l1', solver='liblinear'), 
-               LogisticRegression(penalty='l2', solver='liblinear'), 
-               MultinomialNB(alpha=1.1),
-#                RandomForestClassifier(n_estimators=1500)
-              ],
-    'vec__stop_words': [frozenset(stop_words)],
-}
-
-# Defining a function to do our model analysis. This function takes in X, y, and any pipe parameters
-def model_analysis(X, y, **pipe_params):
-    X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y)
-    pipe = Pipeline([
-            ('vec', CountVectorizer()),
-            ('model', LogisticRegression())])
-
-    gs = GridSearchCV(pipe, param_grid=pipe_params, cv=3, verbose=1, n_jobs=3)
-    gs.fit(X_train, y_train)
-
-    print(f' Best Parameters: {gs.best_params_}')
-    print('')
-    print(f' Cross Validation Accuracy Score: {gs.best_score_}')
-    print(f' Training Data Accuracy Score: {gs.score(X_train, y_train)}')
-    print(f' Testing Data Accuracy Score: {gs.score(X_test, y_test)}')```
 
 ## Visuals
 <space><space>
